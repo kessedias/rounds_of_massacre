@@ -1,0 +1,66 @@
+.container {
+    background-image: url(../img/grass.png);
+}
+
+.style-title {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    width: max-content;
+}
+
+.element1 {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.element2 {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.text-element1 {
+    position: fixed;
+    top: 230px;
+    left: 65px;
+}
+
+.text-element2 {
+    position: fixed;
+    bottom: 10px;
+    right: 60px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1100px) {
+    .element1 {
+        width: 100px;
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .element2 {
+        width: 100px;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+    .text-element1 {
+        position: fixed;
+        top: 115px;
+        left: 33px;
+        font-size: 14px;
+    }
+    .text-element2 {
+        position: fixed;
+        bottom: -13px;
+        right: 30px;
+        font-size: 14px;
+    }
+}

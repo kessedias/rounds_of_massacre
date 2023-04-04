@@ -6,7 +6,9 @@
 > Projeto criado utilizando tecnologias de aplicações WEB, com intuito de recapitular e compilar conhecimentos adquiridos durante a experiência profissional, através do desenvolvimento de um mini-game, que unirá o útil ao agradável 🎮.
 
 <img align="center" src="https://i.ibb.co/P15Whx1/mapa.png">
+<br>
 
+### Demonstração
 <video src="video.mp4">
 
 ## Author

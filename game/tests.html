@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rounds of Massacre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        background-color: black;
+    }
+    
+    .field1 {
+        background-color: rgb(95, 118, 110);
+        height: 600px;
+    }
+    
+    .field2 {
+        background-color: rgb(124, 95, 85);
+        height: 600px;
+    }
+    
+    .soldier {
+        text-align: center;
+        width: 100px;
+        background-color: black;
+        color: whitesmoke;
+        cursor: grab;
+        display: block;
+        border-radius: 10px;
+        position: absolute;
+    }
+    
+    .hp {
+        color: red;
+    }
+    
+    .battlefield-title {
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <div class="container box">
+
+        <div class="row">
+            <div class="col-6 field1 p-0">
+                <span class="battlefield-title">CAMPO OESTE</span>
+                <div class="soldier m-2" id="soldier1">SOLDADO 1 <b style="color:red">HP:<span class="hp"> 0</span></b></div>
+            </div>
+
+            <div class="col-6 field2 p-0">
+                <span class="battlefield-title">CAMPO LESTE</span>
+                <div class="soldier m-2" id="soldier2">SOLDADO 2 <b style="color:red">HP: <span class="hp"> 0</span></b></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="src/js/tests.js"></script>
+
+</body>
+
+</html>
